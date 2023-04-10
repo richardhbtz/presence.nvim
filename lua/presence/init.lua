@@ -118,7 +118,7 @@ function Presence:setup(...)
     self:set_option("auto_update", 1)
     self:set_option("client_id", "793271441293967371")
     self:set_option("debounce_timeout", 10)
-    self:set_option("main_image", "neovim")
+    self:set_option("main_image", "https://i.imgur.com/pe3ycLL.png")
     self:set_option("neovim_image_text", "The One True Text Editor")
     self:set_option("enable_line_number", false)
     -- Status text options
@@ -820,7 +820,7 @@ function Presence:update_for_buffer(buffer, should_debounce)
     -- Construct activity asset information
     local file_text = description or name
     local neovim_image_text = self.options.neovim_image_text
-    local use_file_as_main_image = self.options.main_image == "file"
+    local use_file_as_main_image = true
     local assets = {
         large_image = use_file_as_main_image and asset_key or "neovim",
         large_text = use_file_as_main_image and file_text or neovim_image_text,
