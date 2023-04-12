@@ -141,7 +141,7 @@ return {
     coffee = { "CoffeeScript", "coffeescript" },
     conf = { "Configuration file", "config" },
     config = { "Configuration file", "config" },
-    cpp = { "C++", "c_plus_plus" },
+    cpp = { "C++", "https://i.imgur.com/wY6WmDH.png" },
     cr = { "Crystal", "crystal" },
     cs = { "C#", "https://i.imgur.com/29gov8b.png" },
     css = { "CSS", "https://i.imgur.com/GWNoBjf.png" },
