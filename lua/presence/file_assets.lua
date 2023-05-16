@@ -169,7 +169,7 @@ return {
     gsh = { "Groovy", "groovy" },
     gvy = { "Groovy", "groovy" },
     gy = { "Groovy", "groovy" },
-    h = { "C header file", "c" },
+    h = { "C header file", "https://i.imgur.com/y5Z4riz.png" },
     hack = { "Hack", "hack" },
     haml = { "Haml", "haml" },
     hpp = { "C++ header file", "c_plus_plus" },
