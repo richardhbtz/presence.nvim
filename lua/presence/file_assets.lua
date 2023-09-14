@@ -134,7 +134,7 @@ return {
     cf = { "Configuration file", "config" },
     cfg = { "Configuration file", "config" },
     cl = { "Common Lisp", "lisp" },
-    clj = { "Clojure", "clojure" },
+    clj = { "Clojure", "https://i.imgur.com/AkKh8uw.png" },
     cljs = { "ClojureScript", "clojurescript" },
     cls = { "Visual Basic class module", "visual_basic" },
     cnf = { "Configuration file", "config" },
